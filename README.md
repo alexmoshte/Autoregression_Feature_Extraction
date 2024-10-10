@@ -1,2 +1,2 @@
 # Autoregression models in arm cortex M4/M7 MCUs
-Latest article edition on how to implement autoregression models on arm cortex M4 MCUs. The code I developed for the model can also be found here
+Here I develop an application to produce autoregression coefficients for sEMG signal instantaneous segments for two channels. The latest article edition on how I implemented the model on an arm cortex M4 MCU and the code I developed  for the model is present here
