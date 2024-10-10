@@ -16,7 +16,7 @@
 
 //DEFINES
 #define AR_ORDER 10 // Order for the auto-regression model (how much it looks into the past)
-
+#define ADC_DMA_SIXTEENTHBUFFERSIZE 256 // Size of the source buffer 
 //FUNCTION DECLARATION
 void ADC1_IN1_autocorr_calc(void); // Calculates the auto-correlation between data and generates auto-correlation values that are stored in a buffer
 void ADC1_IN2_autocorr_calc(void);
