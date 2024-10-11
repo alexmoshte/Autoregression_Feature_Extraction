@@ -21,7 +21,6 @@
 void ADC1_IN1_autocorr_calc(void); // Calculates the auto-correlation between data and generates auto-correlation values that are stored in a buffer
 void ADC1_IN2_autocorr_calc(void);
 
-
 float32_t* ADC1_IN1_autoreg_coeffs(void); // Calculates the auto-regression coefficients using the Yule-Walker equations. The coefficients are stored in a buffer
 float32_t* ADC1_IN2_autoreg_coeffs(void);
 
