@@ -23,24 +23,17 @@ float32_t AutoCorr_2[AR_ORDER + 1];
 float32_t AR_Coeffs_1[AR_ORDER]; // Buffer that holds the coefficient values. Initialized to zero before computation
 float32_t AR_Coeffs_2[AR_ORDER];
 
-
 ADC1_IN1_MA AR_ADC1_IN1; // Declaring an instance of Auto-regression feature
 ADC1_IN2_MA AR_ADC1_IN2;
-
-
 
 arm_matrix_instance_f32 ADC1_IN1_YW_mtx; // Creating a matrix instance for the CMSIS DSP matrix initialization function
 arm_matrix_instance_f32 ADC1_IN2_YW_mtx;
 
-
-
 arm_matrix_instance_f32 ADC1_IN1_Inv_YW_mtx; // Creating an inverse matrix instance for the CMSIS DSP matrix initialization function
 arm_matrix_instance_f32 ADC1_IN2_Inv_YW_mtx;
 
-
 arm_matrix_instance_f32 ADC1_IN1_AC_mtx;  // Creating an auto-correlation matrix instance for the CMSIS DSP matrix initialization function
 arm_matrix_instance_f32 ADC1_IN2_AC_mtx;
-
 
 arm_matrix_instance_f32 ADC1_IN1_coeffs_mtx;   // Creating a coefficients matrix instance for the CMSIS DSP matrix initialization function
 arm_matrix_instance_f32 ADC1_IN2_coeffs_mtx;
